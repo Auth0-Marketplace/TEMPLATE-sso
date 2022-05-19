@@ -26,6 +26,7 @@ This file defines the configuration fields that are required by the tenant admin
 * `name` - Required; either `callbacks` for a callback URL or `addon.samlp.SETTING_NAME` for a property within the SAML configuration object.
 * `label` - Required; the field name to be shown to the tenant admin.
 * `dataType` - Optional; `string` for a plain text field or `uri` for URL validation
+* `deployValue` - Optional; the value to use when creating or updating an entity using the deploy scripts explained below
 
 If, for example, your service needed an `audience` value from an admin, the `configuration.json` file would look like this:
 
@@ -40,7 +41,9 @@ If, for example, your service needed an `audience` value from an admin, the `con
 
 ## Build and test your SSO Integration
 
-We've included a few helpful scripts in a `Makefile` that should help you build, test, and submit a quality integration. The commands below require Docker to be installed and running on your local machine (though no direct Docker experience is necessary). Download and install Docker [using these steps for your operating system](https://docs.docker.com/get-docker/). 
+We've included a few helpful scripts in a `Makefile` that should help you build, test, and submit a quality integration. You can develop your Action locally and use the commands below to lint, test, and deploy to a tenant.
+
+The commands below require Docker to be installed and running on your local machine (though no direct Docker experience is necessary). Download and install Docker [using these steps for your operating system](https://docs.docker.com/get-docker/). 
 
 * `make test` - this will run the spec file explained above, along with a few other integrity checks.
 * `make lint` - this will check and format your JS code according to our recommendations.
