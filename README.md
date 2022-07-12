@@ -17,7 +17,7 @@ This file defines the template for the [SAML settings](https://auth0.com/docs/au
 
 ### `installation_guide.md`
 
-This file contains a template for the guide that will be published along with your integration. Look for `TODO` items in this file to find where your instructions should go. Please keep the existing format as much as possible and add any additional troubleshooting steps that might be helpful. 
+This file contains the Markdown-formatted instructions that tenant admins will use to install and configure your integration. This file has a number of `TODO` items that indicate what needs to be added. Your guide should retain the same general format and provided Auth0 installation steps.
 
 ### `configuration.json` 
 
