@@ -39,7 +39,7 @@ If, for example, your service needed an `audience` value from an admin, the `con
 ]
 ```
 
-## Build and test your SSO Integration
+## Build and test your integration Integration
 
 We've included a few helpful scripts in a `Makefile` that should help you build, test, and submit a quality integration. You can develop your Action locally and use the commands below to lint, test, and deploy to a tenant.
 
