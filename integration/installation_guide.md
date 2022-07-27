@@ -10,7 +10,7 @@
 1. Select **Add Integration** (at the top of this page).
 1. Read the necessary access requirements, and select **Continue**.
 1. Enter a **Name**, then configure the integration using the following fields:
-    * [[TODO: Describe all configuration fields]]
+   * [[TODO: Describe all configuration fields]]
 1. Enable the SSO integration by selecting **Save**.
 1. Select the **Connections** view and [configure the sources of identity to use](https://auth0.com/docs/get-started/applications/update-application-connections).
 
