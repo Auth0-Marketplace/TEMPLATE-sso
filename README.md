@@ -5,7 +5,7 @@ This template is used to create SSO integrations.
 ## Documentation
 
 - [SSO integration documentation](https://auth0.com/docs/customize/integrations/marketplace-partners/sso-integrations-for-partners)
-- [Custom OAuth2 Connection documentation](https://auth0.com/docs/authenticate/identity-providers/social-identity-providers/oauth2s)
+- [Custom OAuth2 Connection documentation](https://auth0.com/docs/authenticate/identity-providers/social-identity-providers/oauth2)
 
 ## Getting started
 
